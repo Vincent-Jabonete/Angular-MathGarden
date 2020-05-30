@@ -8,6 +8,10 @@ const app = express(); //call the express
 app.use(express.static(__dirname + '/dist/Angular-MathGarden'));
 
 //to view the all html content in our app
+app.get('/' ,function(req, res) {
+    res.sendFile(path.join(__dirname + '/dist/Angular-MathGarden/index.html'));
+});
+
 app.get('/*' ,function(req, res) {
     res.sendFile(path.join(__dirname + '/dist/Angular-MathGarden/index.html'));
 });
