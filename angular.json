@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Angular-MathGarden"
+    }
+  },
+  "defaultProject": "Angular-MathGarden",
+  "cli": {
+    "analytics": "1cf9c32e-864c-421b-82f9-db6bddba0db2"
+  }
 }
