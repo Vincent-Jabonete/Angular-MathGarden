@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router'; // to navigate the directive components
 import { MatButtonModule } from '@angular/material/button'; // to style the button 
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,6 +16,7 @@ import { MatButtonModule } from '@angular/material/button'; // to style the butt
     BrowserModule,
     AppRoutingModule,
     MatButtonModule,
+    NgbModule,
     RouterModule.forRoot ([
       {
         path: 'home',
