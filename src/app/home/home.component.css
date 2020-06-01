@@ -107,7 +107,9 @@ a.active, a:hover {
     #check:checked ~ ul {
         left: 0;
         z-index: 100;
-       
+    }
+    .learn{
+     margin-top: 10px;
     }
 }
 /*Carousel*/
@@ -127,5 +129,20 @@ p{
 }
 .inner:hover img {
     transform: scale(2);
+}
+/*Card*/
+.card:hover{
+    box-shadow: 0 8px 11px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    transform: scale(1.1);
+    z-index: 100;
+}
+.learn{
+    color:#0082e6;
+    border: solid 3px #0082e6;
+}
+.learn:hover{
+    background-color: #0082e6;
+    color: white;
 }
 
