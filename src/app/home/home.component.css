@@ -66,7 +66,7 @@ a.active, a:hover {
     label.logo {
         font-size: 25px;
         padding-left: 50px;
-        position: fixed;
+        
     }
     nav ul li a {
         font-size: 8px;
@@ -78,7 +78,7 @@ a.active, a:hover {
     }
     ul {
         background:#2C3E50;
-        height: 1000vh;
+        height: 1100vh;
         width: 100%;
         position: fixed;
         top:80px;
@@ -111,6 +111,22 @@ a.active, a:hover {
     .learn{
      margin-top: 10px;
     }
+    footer{
+        position: static;
+        
+    }
+    .footer-distributed .footer-right,
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center{
+        display:block;
+        width: 100%;
+        text-align:center;
+        margin-bottom: 40px;
+    }
+    .footer-distributed .footer-center i {
+        margin-left:0;
+    }
+
 }
 /*Carousel*/
 .images{
@@ -156,6 +172,95 @@ p{
     border-radius: 50%;
     width: 30%;
 }
+
+/*footer*/
+footer{
+   
+    background:#0082e6;
+    padding:100px 0px;
+    /* position: fixed;
+    bottom: 0; */
+}
+.footer-distributed {
+    background-color:#0082e6;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px;
+    padding:50px;
+    margin-top:100px;
+}
+/* to display at the top*/
+.footer-distributed .footer-left,
+.footer-distributed .footer-right,
+.footer-distributed .footer-center{
+    display: inline-block; /* allows set width and height on the element*/
+    vertical-align: top;
+}
+.footer-left{
+    width: 30%;
+}
+.footer-left h3{
+    color:  #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin:0;
+}
+.footer-links{
+    color:white;
+    margin: 20px 0 12px;
+}
+.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    color:inherit;
+}
+.footer-company-name{
+    color:white;
+    font-size: 20px;
+    font-weight: 14px;
+    margin:0;
+}
+.footer-center{
+    width:35%;
+}
+.footer-center i{
+
+    color:white;
+    width: 200px;
+    height: 38px;
+    line-height: 20px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    margin:10px 15px;
+   
+}
+.footer-right{
+    width: 30%;
+}
+.footer-company-about{
+    color:white;
+    line-height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+
+}
+.footer-icons a{
+    display:inline-block;
+  
+    color:white;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 30px;
+    text-align: center;
+    margin:0 3px 5px;
+    line-height: 35px;
+
+}
+
 
 
 
