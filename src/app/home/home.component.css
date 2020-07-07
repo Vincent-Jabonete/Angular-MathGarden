@@ -68,10 +68,6 @@ a.active, a:hover {
         padding-left: 50px;
         
     }
-    nav ul li a {
-        font-size: 8px;
-        
-    }
     .checkbtn{
         display: block;
        
@@ -80,14 +76,12 @@ a.active, a:hover {
         background:#2C3E50;
         height: 1100vh;
         width: 100%;
-        position: fixed;
         top:80px;
-        left:  -100%;
+        left:-100%;
         text-align: center;
         transition: all .5s;
         position: absolute;
         z-index: 100;
-       
     }
     nav ul li {
         display: block;
@@ -105,15 +99,14 @@ a.active, a:hover {
         background: #0082e6;
     }
     #check:checked ~ ul {
-        left: 0;
+        left:0;
         z-index: 100;
     }
     .learn{
      margin-top: 10px;
     }
     footer{
-        position: static;
-        
+        position: static;   
     }
     .footer-distributed .footer-right,
     .footer-distributed .footer-left,
@@ -126,7 +119,6 @@ a.active, a:hover {
     .footer-distributed .footer-center i {
         margin-left:0;
     }
-
 }
 /*Carousel*/
 .images{
@@ -172,7 +164,6 @@ p{
     border-radius: 50%;
     width: 30%;
 }
-
 /*footer*/
 footer{
    
@@ -232,8 +223,7 @@ footer{
     font-size: 20px;
     border-radius: 50%;
     text-align: center;
-    margin:10px 15px;
-   
+    margin:10px 15px;  
 }
 .footer-right{
     width: 30%;
@@ -244,11 +234,9 @@ footer{
     font-size: 30px;
     font-weight: bold;
     margin: 0;
-
 }
 .footer-icons a{
     display:inline-block;
-  
     color:white;
     width: 35px;
     height: 35px;
@@ -258,7 +246,6 @@ footer{
     text-align: center;
     margin:0 3px 5px;
     line-height: 35px;
-
 }
 
 
